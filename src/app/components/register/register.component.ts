@@ -24,7 +24,7 @@ export class RegisterComponent implements OnInit {
       }
     );
   }
-  //hello
+  //helloaaa
   ngOnInit(): void {
     this.regform=this.fb.group({
       UserName:['',[Validators.required,Validators.minLength(3)]],
