@@ -1,0 +1,19 @@
+<div class="container">
+    <p>LogIn Form</p>
+  <form [formGroup]="logform">
+      <div class="form-group col-6">
+        <label for="">UserName</label>
+        <input type="text" [(ngModel)]="user.username" [class.is-valid]="logform.controls['UserName'].valid" formControlName="UserName" class="form-control" aria-describedby="helpId">
+        <small id="helpId" class="text-muted">Help text</small>
+      </div>
+      <div class="form-group col-6">
+        <label for="">Password</label>
+        <input type="password" [(ngModel)]="user.password" formControlName="Password" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="onlogin()">LogIn</button>
+  </form>
+  </div>
+  <br><br>
+  <div>
+    <!-- <img src="{{img}}" alt="Photo"> -->
+  </div>

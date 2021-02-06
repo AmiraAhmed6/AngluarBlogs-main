@@ -1,0 +1,24 @@
+form{
+    margin-top: 20px;
+    padding: 20px;
+}
+input{
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    border-bottom: 2px solid rgb(25, 155, 206);
+}
+label{
+    color: rgb(25, 155, 206);
+}
+p{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(25, 155, 206);    
+}
+.container{
+    text-align: left;
+}
+img{
+    text-align: right;
+}
